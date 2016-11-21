@@ -24,7 +24,7 @@ class Joker(Linter):
     # version_requirement = '>= 1.0'
 
     # stdin:88:13: Read error: Invalid unicode escape: \uqwer
-    regex = r'stdin:(?P<line>\d+):(?P<col>\d+): (?P<message>.*((?P<error>error|Exception)|(?P<warning>warning)).*)'
+    regex = r'<stdin>:(?P<line>\d+):(?P<col>\d+): (?P<message>.*((?P<error>error|Exception)|(?P<warning>warning)).*)'
 
     multiline = False
     line_col_base = (1, 1)
