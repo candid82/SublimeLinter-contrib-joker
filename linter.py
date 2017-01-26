@@ -17,7 +17,7 @@ class Joker(Linter):
     """Provides an interface to joker."""
 
     syntax = 'clojure'
-    cmd = 'joker --parse --'
+    cmd = 'joker --lint --'
     executable = 'joker'
     # version_args = '--version'
     # version_re = r'(?P<version>\d+\.\d+\.\d+)'
