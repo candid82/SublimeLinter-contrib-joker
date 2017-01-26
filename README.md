@@ -3,23 +3,16 @@ SublimeLinter-contrib-joker
 
 [![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-joker.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-joker)
 
-This linter plugin for [SublimeLinter][docs] provides an interface to [joker](__linter_homepage__). It will be used with files that have the “__syntax__” syntax.
+This linter plugin for [SublimeLinter][docs] provides an interface to [joker](https://github.com/candid82/joker). It will be used with files that have the “__clojure__” syntax.
 
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here][installation].
 
 ### Linter installation
-Before using this plugin, you must ensure that `joker` is installed on your system. To install `joker`, do the following:
-
-1. Install Other.
-
-1. Install `joker` by typing the following in a terminal:
-   ```
-   <package manager> install joker
-   ```
+Before using this plugin, you must ensure that `joker` is installed on your system. Refer to [joker's docs](https://github.com/candid82/joker#getting-started) for installation instructions.
 
 
-**Note:** This plugin requires `joker` __version__ or later.
+**Note:** This plugin requires `joker` __0.6.0__ or later.
 
 ### Linter configuration
 In order for `joker` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
@@ -37,13 +30,6 @@ To install via Package Control, do the following:
 
 ## Settings
 For general information on how SublimeLinter works with settings, please see [Settings][settings]. For information on generic linter settings, please see [Linter Settings][linter-settings].
-
-In addition to the standard SublimeLinter settings, SublimeLinter-contrib-joker provides its own settings. Those marked as “Inline Setting” or “Inline Override” may also be [used inline][inline-settings].
-
-|Setting|Description|Inline Setting|Inline Override|
-|:------|:----------|:------------:|:-------------:|
-|foo|Something.|&#10003;| |
-|bar|Something else.| |&#10003;|
 
 ## Contributing
 If you would like to contribute enhancements or fixes, please do the following:
