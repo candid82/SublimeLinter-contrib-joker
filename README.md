@@ -31,6 +31,40 @@ To install via Package Control, do the following:
 ## Settings
 For general information on how SublimeLinter works with settings, please see [Settings][settings]. For information on generic linter settings, please see [Linter Settings][linter-settings].
 
+## Examples
+
+### Reader errors
+
+![image](https://cloud.githubusercontent.com/assets/882970/22320933/6da69702-e345-11e6-876b-3182df8bd85e.png)
+
+![image](https://cloud.githubusercontent.com/assets/882970/22320909/27a242d8-e345-11e6-9722-b0e6867f195b.png)
+
+![image](https://cloud.githubusercontent.com/assets/882970/22320877/f69fbbca-e344-11e6-84e4-0fa5968397ec.png)
+
+![image](https://cloud.githubusercontent.com/assets/882970/22320929/562e60be-e345-11e6-8231-c42f661f94db.png)
+
+### Parser errors
+
+![image](https://cloud.githubusercontent.com/assets/882970/22320956/a6491292-e345-11e6-9787-7550a56907fd.png)
+
+![image](https://cloud.githubusercontent.com/assets/882970/22320767/0f9f3fa2-e344-11e6-8c49-f5f4c32a5b96.png)
+
+![image](https://cloud.githubusercontent.com/assets/882970/22320815/71017418-e344-11e6-98ff-dff980497ca2.png)
+
+### Built-in macros errors
+
+![image](https://cloud.githubusercontent.com/assets/882970/22320945/851cc8c0-e345-11e6-81f6-3b32c389de1c.png)
+
+### Speculative warnings
+
+![image](https://cloud.githubusercontent.com/assets/882970/22320971/cebea638-e345-11e6-9dac-a32e5afd4293.png)
+
+![image](https://cloud.githubusercontent.com/assets/882970/22320868/d6318ada-e344-11e6-9be4-388723b69b7c.png)
+
+![image](https://cloud.githubusercontent.com/assets/882970/22320695/6e1b7d4e-e343-11e6-84b5-4f0121ba2da1.png)
+
+
+
 ## Contributing
 If you would like to contribute enhancements or fixes, please do the following:
 
