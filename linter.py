@@ -17,11 +17,15 @@ class Joker(Linter):
     """Provides an interface to joker."""
 
     syntax = 'clojure'
-    cmd = 'joker --lint --'
     executable = 'joker'
-    # version_args = '--version'
-    # version_re = r'(?P<version>\d+\.\d+\.\d+)'
-    # version_requirement = '>= 1.0'
+
+    def cmd(self):
+        if self.filename.endswith('.joke'):
+            return 'joker --lintjoker --'
+        elif self.filename.endswith('.cljs'):
+            return 'joker --lintcljs --'
+        else:
+            return 'joker --lint --'
 
     # stdin:88:13: Read error: Invalid unicode escape: \uqwer
     regex = r'<stdin>:(?P<line>\d+):(?P<col>\d+): (?P<message>.*((?P<error>error|Exception)|(?P<warning>warning)).*)'
