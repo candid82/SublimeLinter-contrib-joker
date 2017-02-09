@@ -24,6 +24,8 @@ class Joker(Linter):
             return 'joker --lintjoker --'
         elif self.filename.endswith('.cljs'):
             return 'joker --lintcljs --'
+        elif self.filename.endswith('.edn'):
+            return 'joker --lintedn --'
         else:
             return 'joker --lint --'
 
