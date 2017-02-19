@@ -27,7 +27,7 @@ class Joker(Linter):
         elif self.filename.endswith('.edn'):
             return 'joker --lintedn --'
         else:
-            return 'joker --lint --'
+            return 'joker --lintclj --'
 
     # stdin:88:13: Read error: Invalid unicode escape: \uqwer
     regex = r'<stdin>:(?P<line>\d+):(?P<col>\d+): (?P<message>.*((?P<error>error|Exception)|(?P<warning>warning)).*)'
