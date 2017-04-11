@@ -65,6 +65,10 @@ For general information on how SublimeLinter works with settings, please see [Se
 
 ![image](https://cloud.githubusercontent.com/assets/882970/22320695/6e1b7d4e-e343-11e6-84b5-4f0121ba2da1.png)
 
+### Unused namespaces, vars and let bindings
+
+![image](https://cloud.githubusercontent.com/assets/882970/24892779/f0de32aa-1e33-11e7-9f28-f7759b5572f0.jpg)
+
 
 
 ## Contributing
