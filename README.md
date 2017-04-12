@@ -1,7 +1,7 @@
 SublimeLinter-contrib-joker
 ================================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-joker.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-joker)
+[![Build Status](https://travis-ci.org/candid82/SublimeLinter-contrib-joker.svg?branch=master)](https://travis-ci.org/candid82/SublimeLinter-contrib-joker)
 
 This linter plugin for [SublimeLinter][docs] provides an interface to [joker](https://github.com/candid82/joker). It will be used with files that have the “__clojure__” syntax.
 
