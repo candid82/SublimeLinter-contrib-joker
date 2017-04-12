@@ -20,6 +20,7 @@ class Joker(Linter):
     executable = 'joker'
 
     def cmd(self):
+        """Return the command to run."""
         if self.filename.endswith('.joke'):
             return 'joker --lintjoker --'
         elif self.filename.endswith('.cljs'):
@@ -42,4 +43,3 @@ class Joker(Linter):
     inline_settings = None
     inline_overrides = None
     comment_re = None
-
