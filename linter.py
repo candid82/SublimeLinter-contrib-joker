@@ -22,13 +22,13 @@ class Joker(Linter):
     def cmd(self):
         """Return the command to run."""
         if self.filename.endswith('.joke'):
-            return 'joker --lintjoker --'
+            return 'joker --lintjoker --working-dir ${file} --'
         elif self.filename.endswith('.cljs'):
-            return 'joker --lintcljs --'
+            return 'joker --lintcljs --working-dir ${file} --'
         elif self.filename.endswith('.edn'):
-            return 'joker --lintedn --'
+            return 'joker --lintedn --working-dir ${file} --'
         else:
-            return 'joker --lintclj --'
+            return 'joker --lintclj --working-dir ${file} --'
 
     # stdin:88:13: Read error: Invalid unicode escape: \uqwer
     regex = r'<stdin>:(?P<line>\d+):(?P<col>\d+): (?P<message>.*((?P<error>error|Exception)|(?P<warning>warning)).*)'
