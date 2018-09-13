@@ -12,7 +12,7 @@ SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 
 Before using this plugin, you must ensure that `joker` is installed on your system. Refer to [joker's docs](https://github.com/candid82/joker#getting-started) for installation instructions.
 
 
-**Note:** This plugin requires `joker` __0.7.0__ or later.
+**Note:** This plugin requires `joker` __0.9.7__ or later.
 
 ### Linter configuration
 In order for `joker` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
