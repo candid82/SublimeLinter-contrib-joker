@@ -25,7 +25,7 @@ class Joker(Linter):
             return 'joker --lintjoker --working-dir ${file} -'
         elif self.filename.endswith('.cljs'):
             return 'joker --lintcljs --working-dir ${file} -'
-        elif self.filename.endswith('.edn'):
+        elif self.filename.endswith('.edn') or self.filename.endswith('.joker'):
             return 'joker --lintedn --working-dir ${file} -'
         else:
             return 'joker --lintclj --working-dir ${file} -'
