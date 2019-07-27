@@ -16,8 +16,6 @@ from SublimeLinter.lint import Linter, util
 class Joker(Linter):
     """Provides an interface to joker."""
 
-    executable = 'joker'
-
     def cmd(self):
         """Return the command to run."""
         if self.filename.endswith('.joke'):
@@ -40,7 +38,4 @@ class Joker(Linter):
     defaults = {
         'selector': 'source.clj, source.cljs, source.edn'
     }
-    inline_settings = None
-    inline_overrides = None
-    comment_re = None
     on_stderr = None
