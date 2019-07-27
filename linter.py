@@ -36,6 +36,6 @@ class Joker(Linter):
     error_stream = util.STREAM_BOTH
     word_re = r'^([-\w\.]+)'
     defaults = {
-        'selector': 'source.clj, source.cljs, source.edn'
+        'selector': 'source.clojure'
     }
     on_stderr = None
