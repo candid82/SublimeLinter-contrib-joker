@@ -16,7 +16,6 @@ from SublimeLinter.lint import Linter, util
 class Joker(Linter):
     """Provides an interface to joker."""
 
-    syntax = ['clojure', 'edn']
     executable = 'joker'
 
     def cmd(self):
@@ -37,9 +36,10 @@ class Joker(Linter):
     line_col_base = (1, 1)
     tempfile_suffix = None
     error_stream = util.STREAM_BOTH
-    selectors = {}
     word_re = r'^([-\w\.]+)'
-    defaults = {}
+    defaults = {
+        'selector': 'source.clj, source.cljs, source.edn'
+    }
     inline_settings = None
     inline_overrides = None
     comment_re = None
